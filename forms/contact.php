@@ -1,4 +1,5 @@
  <?php
+include 'contact.html';
 if(!empty($_POST["send"])) {
 	$name = $_POST["userName"];
 	$email = $_POST["userEmail"];
@@ -12,5 +13,5 @@ if(!empty($_POST["send"])) {
 	    $type = "success";
 	}
 }
-require_once "contact-view.php";
+
 ?>
